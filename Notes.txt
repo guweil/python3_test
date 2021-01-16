@@ -1,0 +1,15 @@
+@classmethod 中文名为装饰器类方法
+在class里的函数 不需要依赖对象调用 而是直接用类名调用 默认参数 cls， 相对于对象的self
+类方法作用：
+1. 只能访问类属性
+2. 出现对象之前的动作
+
+__  私有化 只有在类里才能改 call的时候改不了
+
+@staticmethod 静态方法 很类似于类方法
+无参数
+在static method里没有self， 不依赖于对象
+用类名call static method
+可以在没有对象之前使用
+
+看类里面所有属性：dir(p)
